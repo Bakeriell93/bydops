@@ -1,0 +1,10 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "env": {
+    "NEXTAUTH_URL": "https://bydops.vercel.app",
+    "NEXTAUTH_SECRET": "byd-ops-brain-production-secret-key-2024"
+  }
+}
