@@ -10,15 +10,13 @@ import {
   Users,
   MapPin,
   Plus,
-  Filter,
   ChevronLeft,
   ChevronRight,
-  Video,
-  Phone
+  Video
 } from "lucide-react"
 
 export default function CalendarPage() {
-  const [currentDate, setCurrentDate] = useState(new Date())
+  const [currentDate] = useState(new Date())
   const [view, setView] = useState<"week" | "month">("week")
 
   const events = [
