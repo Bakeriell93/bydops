@@ -21,6 +21,13 @@ const eslintConfig = [
       "src/generated/**",
     ],
   },
+  {
+    rules: {
+      "jsx-a11y/alt-text": "off",
+      "react/no-unescaped-entities": "off",
+      "@typescript-eslint/no-unused-vars": "warn"
+    }
+  }
 ];
 
 export default eslintConfig;

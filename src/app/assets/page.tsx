@@ -198,7 +198,7 @@ export default function AssetsPage() {
             <CardContent className="p-6">
               <div className="flex items-center space-x-4">
                 <div className="p-3 bg-blue-100 rounded-lg">
-                        <Image className="h-6 w-6 text-blue-600" alt="Images" />
+                        <Image className="h-6 w-6 text-blue-600" alt="" />
                 </div>
                 <div>
                   <p className="text-2xl font-bold text-gray-900">24</p>
