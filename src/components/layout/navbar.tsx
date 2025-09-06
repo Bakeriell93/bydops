@@ -72,7 +72,7 @@ export function Navbar() {
                         {session.user?.email}
                       </p>
                       <p className="text-xs leading-none text-muted-foreground">
-                        Role: {session.user?.role}
+                        Role: {(session.user as any)?.role || 'User'}
                       </p>
                     </div>
                   </DropdownMenuLabel>
@@ -136,7 +136,7 @@ export function Navbar() {
                 <div className="ml-3">
                   <div className="text-base font-medium text-gray-800">{session.user?.name}</div>
                   <div className="text-sm font-medium text-gray-500">{session.user?.email}</div>
-                  <div className="text-sm font-medium text-gray-500">Role: {session.user?.role}</div>
+                  <div className="text-sm font-medium text-gray-500">Role: {(session.user as any)?.role || 'User'}</div>
                 </div>
               </div>
             ) : (
